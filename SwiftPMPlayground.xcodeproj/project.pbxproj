@@ -16,6 +16,7 @@
 		C75D0DB627ACCF8C004E1F38 /* SwiftPMPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75D0DB527ACCF8C004E1F38 /* SwiftPMPlaygroundTests.swift */; };
 		C75D0DC027ACCF8C004E1F38 /* SwiftPMPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75D0DBF27ACCF8C004E1F38 /* SwiftPMPlaygroundUITests.swift */; };
 		C75D0DC227ACCF8C004E1F38 /* SwiftPMPlaygroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75D0DC127ACCF8C004E1F38 /* SwiftPMPlaygroundUITestsLaunchTests.swift */; };
+		C75D0DD127ACE892004E1F38 /* SamplePackage in Frameworks */ = {isa = PBXBuildFile; productRef = C75D0DD027ACE892004E1F38 /* SamplePackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C75D0DD127ACE892004E1F38 /* SamplePackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = SwiftPMPlayground;
+			packageProductDependencies = (
+				C75D0DD027ACE892004E1F38 /* SamplePackage */,
+			);
 			productName = SwiftPMPlayground;
 			productReference = C75D0D9B27ACCF8B004E1F38 /* SwiftPMPlayground.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = C75D0D9227ACCF8B004E1F38;
+			packageReferences = (
+				C75D0DCF27ACE892004E1F38 /* XCRemoteSwiftPackageReference "SwiftSamplePackage" */,
+			);
 			productRefGroup = C75D0D9C27ACCF8B004E1F38 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -624,6 +632,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C75D0DCF27ACE892004E1F38 /* XCRemoteSwiftPackageReference "SwiftSamplePackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hara-94/SwiftSamplePackage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C75D0DD027ACE892004E1F38 /* SamplePackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C75D0DCF27ACE892004E1F38 /* XCRemoteSwiftPackageReference "SwiftSamplePackage" */;
+			productName = SamplePackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C75D0D9327ACCF8B004E1F38 /* Project object */;
 }

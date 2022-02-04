@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SamplePackage",
+        "repositoryURL": "https://github.com/hara-94/SwiftSamplePackage",
+        "state": {
+          "branch": null,
+          "revision": "bf60d53bcc990f69c8a2c502b249f557382097ed",
+          "version": "1.0.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
