@@ -4,10 +4,53 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>SwiftPMPlayground.xcscheme_^#shared#^_</key>
+		<key>SamplePackage.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>SwiftPMPlayground-MyRelease.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>SwiftPMPlayground-Release.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>SwiftPMPlayground.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>C75D0D9A27ACCF8B004E1F38</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C75D0DB027ACCF8C004E1F38</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C75D0DBA27ACCF8C004E1F38</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C75D0DE227AD05DA004E1F38</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C75D0E0827AD07D4004E1F38</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

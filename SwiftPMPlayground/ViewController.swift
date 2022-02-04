@@ -14,6 +14,15 @@ class ViewController: UIViewController {
     override func loadView() {
         super.loadView()
         print("loadView")
+        #if DEBUG
+            print("debug")
+        #elseif RELEASE
+            print("release")
+        #elseif MYRELEASE
+            print("my_release")
+        #else
+            print("other")
+        #endif
         
         button.render("SamplePackageButton")
         view.addSubview(button)
