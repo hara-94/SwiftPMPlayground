@@ -7,6 +7,7 @@ let package = Package(
     name: "PackageForRunScript",
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
+        .executable(name: "main", targets: ["PackageForRunScript"]),
         .library(
             name: "PackageForRunScript",
             targets: ["PackageForRunScript"]),

@@ -156,6 +156,7 @@
 				C75D0D9727ACCF8B004E1F38 /* Sources */,
 				C75D0D9827ACCF8B004E1F38 /* Frameworks */,
 				C75D0D9927ACCF8B004E1F38 /* Resources */,
+				C75D0E1B27AD0E52004E1F38 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -308,6 +309,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C75D0E1B27AD0E52004E1F38 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\necho \"hello world\"\necho \"${PROJECT_DIR}\"\ncd ./PackageForRunScript\nxcrun -sdk macosx swift run\n# cd $CURRENT\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C75D0D9727ACCF8B004E1F38 /* Sources */ = {
